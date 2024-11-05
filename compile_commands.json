@@ -1,0 +1,52 @@
+[
+ {
+  "directory": "/home/elijah/Desktop/Dev/Git/repos/Practice",
+  "arguments": [
+   "clang",
+   "-lglfw",
+   "-lvulkan",
+   "-ldl",
+   "-lpthread",
+   "-lX11",
+   "-lXxf86vm",
+   "-lXrandr",
+   "-lXi",
+   "-lm",
+   "-lfreetype",
+   "-IDay1",
+   "-MMD",
+   "-MP",
+   "-c",
+   "-fPIE",
+   "Day1/main.c",
+   "-o",
+   "build/Day1/main.c.o"
+  ],
+  "file": "Day1/main.c"
+ },
+ {
+  "directory": "/home/elijah/Desktop/Dev/Git/repos/Practice",
+  "arguments": [
+   "clang",
+   "-lglfw",
+   "-lvulkan",
+   "-ldl",
+   "-lpthread",
+   "-lX11",
+   "-lXxf86vm",
+   "-lXrandr",
+   "-lXi",
+   "-lm",
+   "-lfreetype",
+   "-IDay1",
+   "-MMD",
+   "-MP",
+   "-c",
+   "-fPIE",
+   "Day1/instance.c",
+   "-o",
+   "build/Day1/instance.c.o"
+  ],
+  "file": "Day1/instance.c"
+ }
+]
