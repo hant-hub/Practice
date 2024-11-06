@@ -48,5 +48,30 @@
    "build/Day1/instance.c.o"
   ],
   "file": "Day1/instance.c"
+ },
+ {
+  "directory": "/home/elijah/Desktop/Dev/Git/repos/Practice",
+  "arguments": [
+   "clang",
+   "-lglfw",
+   "-lvulkan",
+   "-ldl",
+   "-lpthread",
+   "-lX11",
+   "-lXxf86vm",
+   "-lXrandr",
+   "-lXi",
+   "-lm",
+   "-lfreetype",
+   "-I./Day2",
+   "-MMD",
+   "-MP",
+   "-c",
+   "-fPIE",
+   "Day2/main.c",
+   "-o",
+   "build/./Day2/main.c.o"
+  ],
+  "file": "Day2/main.c"
  }
 ]
